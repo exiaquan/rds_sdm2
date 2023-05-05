@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+
+<Styles>
+ <Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Vertical="Bottom"/>
+  <Borders/>
+  <Font/>
+  <Interior/>
+  <NumberFormat/>
+  <Protection/>
+ </Style>
+ <Style ss:ID="s27">
+  <Font x:Family="Swiss" ss:Color="#0000FF" ss:Bold="1"/>
+ </Style>
+ <Style ss:ID="s21">
+  <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+ </Style>
+ <Style ss:ID="s22">
+  <NumberFormat ss:Format="yyyy\-mm\-dd\ hh:mm:ss"/>
+ </Style>
+ <Style ss:ID="s23">
+  <NumberFormat ss:Format="hh:mm:ss"/>
+ </Style>
+</Styles>
+
+ <Worksheet ss:Name="Sheet1">
+  <ss:Table>
+   <ss:Row>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">id_pegawai</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">nama_pegawai</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">status_kehadiran</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">waktu_kehadiran</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">masuk</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">keluar</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">terlambat</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">status_perijinan</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">shift</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">status_masuk</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String">0001</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LIE IGNATIUS HENDRICK SOETIKNO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadir</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2023-02-16T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">07:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">16:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String">0001</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LIE IGNATIUS HENDRICK SOETIKNO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">tdk hadir</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2023-02-17T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">07:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">16:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String">0001</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LIE IGNATIUS HENDRICK SOETIKNO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadir</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2023-02-18T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">07:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">16:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String">0001</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LIE IGNATIUS HENDRICK SOETIKNO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadir</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2023-02-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">07:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">16:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="String">0001</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">LIE IGNATIUS HENDRICK SOETIKNO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">hadir</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">07:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">16:00</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+  </ss:Table>
+ </Worksheet>
+</Workbook>
